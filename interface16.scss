@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@800&display=swap');
 
+$fontcolor: #adaeae; 
+$background: #f8fbfb; 
+$title-fontcolor:#4a4c4c;
+$link-fontcolor: #5a8fe6;
+
 // .mockup{
   
 //     width:1033px;
@@ -14,10 +19,7 @@
 
 // }
 
-$fontcolor: #adaeae; 
-$background: #f8fbfb; 
-$title-fontcolor:#4a4c4c;
-$link-fontcolor: #5a8fe6;
+
 
 h2{
     font-family: 'Heebo', sans-serif;
@@ -43,6 +45,9 @@ a{
 img{ 
     width: 90px;
 }
+
+
+
 
 .wrapper{
     width:1033px;
@@ -76,6 +81,10 @@ img{
 .rel-link{
     padding-top: 23px;
 }
+
+
+
+
 
 
 @media (max-width: 700px){
