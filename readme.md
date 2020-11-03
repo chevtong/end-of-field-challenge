@@ -4,15 +4,15 @@ I am using the background image technique to do these pixel-perfect interfaces, 
 <br><br>
 
 # Simple Interfaces: <br>
-[Interface 16](interface16.html) <br> 
+<font size="5">[Interface 16](interface16.html) </font> <br> 
 (Sample↓↓↓)<br>
-<img src="i16/interface.16.png" alt="inter16" width="400"/> <br>  <br> 
+<img src="i16/interface.16.png" alt="inter16" width="300"/> <br>  <br> 
 
-[Interface 17](interface17.html) <br>
+<font size="5">[Interface 17](interface17.html)</font> <br>
 (Sample↓↓↓)<br>
-<img src="interface.17.png" alt="inter17" width="200"/>
+<img src="interface.17.png" alt="inter17" width="150"/>
 <br><br><br>
 # Complex Interface:<br>
-[Complex 4](complex4.html) <br>
+<font size="5">[Complex 4](complex4.html)</font> <br>
 (Sample↓↓↓)<br>
-<img src="complex4/complex.04.png" alt="complex4" width="400"/>
+<img src="complex4/complex.04.png" alt="complex4" width="300"/>
