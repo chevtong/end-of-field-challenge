@@ -11,30 +11,11 @@
     pointer-events: none;
 }  */
 
-.wrapper{ 
-    /* border: 1px solid brown; */
-    width:321px;
-    height: 337px;
-    padding: 5px 10px;
-}
-
-
-
 h1{
     font-family: 'Raleway', sans-serif;
     color: #444444;
     margin: 0px;
     font-size: 45px;
-}
-
-.title{
-    padding-bottom: 10px;
-}
-
-hr{
-    border: 0;
-    height: 1px;
-    background: lightgrey;
 }
 
 h3{
@@ -53,11 +34,32 @@ p{
    font-weight: 500;
     letter-spacing: 1.4px;
     line-height: 1.8;
-
-
 }
 
+p.cs-text{
+    font-weight: 550;
+    letter-spacing: 1.1px;
+}
 
+hr{
+    border: 0;
+    height: 1px;
+    background: lightgrey;
+}
+ 
+
+
+
+.wrapper{ 
+    /* border: 1px solid brown; */
+    width:321px;
+    height: 337px;
+    padding: 5px 10px;
+}
+
+.title{
+    padding-bottom: 10px;
+}
 
 .text{
     padding-top: 5px;
@@ -75,10 +77,3 @@ p{
 
 }
 
-p.cs-text{
-
-    font-weight: 550;
-    letter-spacing: 1.1px;
-
-}
- 
