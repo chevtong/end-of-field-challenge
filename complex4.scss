@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+$background: #492648;
+$button-color: #844270;
+$text-color: #eae7ea;
+
+$title-font: 'Noto Serif', serif;
+$text-font: 'Roboto', sans-serif;
+
+
+// .mockup{
+  
+//     width:1280px;
+//     height: 329px;
+//     background-image: url("complex4/complex.04.png");
+
+//     position: absolute;
+//     opacity: 0.5;
+//     z-index: 10;
+//     pointer-events: none;
+
+
+// }
+h2{
+    font-family: $title-font;
+    font-weight: 1000;
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: $text-color;
+}
+
+p{
+    font-family: $text-font;
+    font-size: 14.5px;
+    line-height: 1.5;
+    color: $text-color;
+}
+
+img{
+	width:100%;
+	object-fit:contain;
+}
+
+
+.wrapper{
+    // border: 1px solid yellow;
+    width:1278px;
+    height: 327px;
+    margin: 1px 1px;
+    
+    display: flex;
+    flex-direction: row;
+}
+
+
+// col1 start
+.col1{
+    flex: 35%;
+    padding: 14px 35px;
+    background-color: $background;
+
+}
+
+// col2 start
+.col2, .col3 {
+    flex: 20%;
+    padding: 14px 35px;
+    background-color: $background;
+}
+   
+
+.col2{
+    padding-left: 70px;
+    font-family: $text-font;
+}
+
+h2.nav-title{ 
+    margin-bottom: 23px;
+}
+.nav-item{
+    padding: 8px 0px;
+    color: $text-color;
+ }
+
+.nav-item-about{
+    color: $text-color;
+    padding: 10px 0px;
+    display: grid;
+    grid-template-columns: 30% auto;
+    
+    img{
+        width: 80px;
+    }
+}
+
+
+// col3 start
+
+.temp-item{
+    padding: 7px 4px;
+    font-family: $text-font;
+    color: $text-color;
+}
+
+// col4 start
+.col4{
+    flex: 40%;
+    background-color: $background;
+}
+.col4-child{
+    margin: 33px 40px;
+}
+
+.contact-info{
+    display:grid; 
+    grid-template-columns: 10% 90%;
+    grid-template-rows: 30% 30% 30%;
+    align-items: center;
+   
+    p{
+        font-size: 12px;
+    }
+}
+
+.grid-item-pic{
+    grid-row: 1 / 4;
+}
+
+// media query start
+@media (max-width: 700px){
+    .wrapper{ 
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+    }
+
+    .col1, .col2, .col3, .col4{
+        flex: 100%;
+        padding: 10px;
+        margin: 0px 10px;
+        
+    }
+}
