@@ -21,6 +21,11 @@ img {
      object-fit: contain;
 }
 
+a {
+  color: #eae7ea;
+  text-decoration: none;
+}
+
 .wrapper {
   width: 1278px;
   height: 327px;
