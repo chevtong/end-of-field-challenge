@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+body {
+  color: #f8f7f8;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h2 {
+  margin: auto auto 30px auto;
+}
+
+p {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+ul li {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+}
+
+.wrapper {
+  width: 1240px;
+  height: 329px;
+  padding: 20px;
+  display: -ms-grid;
+  display: grid;
+  /* grid-template-columns: auto-fit, minmax(250px, 1fr); */
+  -ms-grid-columns: 1fr 0.5fr 0.5fr 1fr;
+      grid-template-columns: 1fr 0.5fr 0.5fr 1fr;
+  grid-gap: 20px;
+  padding-top: 31px;
+  background-color: #4a2549;
+  justify-items: start;
+}
+
+.col1 {
+  padding-left: 17px;
+}
+
+.col1 p {
+  line-height: 22px;
+  letter-spacing: 0.6px;
+}
+
+/* col2 start */
+.col2 {
+  padding-left: 24px;
+}
+
+.wrapper ul {
+  padding: 0px;
+}
+
+.wrapper ul li {
+  list-style: none;
+  padding-bottom: 10px;
+  line-height: 25px;
+}
+
+button {
+  border: 1px solid #943475;
+  background-color: #943475;
+  color: #f8f7f8;
+  border-radius: 3px;
+  font-weight: bold;
+  font-size: 8px;
+  padding: auto 8px;
+  margin-left: 10px;
+  letter-spacing: 1.5px;
+}
+
+.col3 {
+  padding-left: 63px;
+}
+
+/* col4 start */
+.col4 {
+  padding-left: 100px;
+}
+
+.pic img {
+  width: 63px;
+  height: 63px;
+  border-radius: 3px;
+  margin: 0 2px auto auto;
+}
+
+.contactinfo {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 5% 95%;
+      grid-template-columns: 5% 95%;
+  -ms-grid-rows: auto auto auto;
+      grid-template-rows: auto auto auto;
+  grid-gap: 10px;
+  padding-top: 25px;
+}
+
+.contactinfo > div {
+  -ms-flex-item-align: start;
+      -ms-grid-row-align: start;
+      align-self: start;
+  font-size: 14px;
+}
+
+.contactinfo p {
+  margin: 0px;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .wrapper {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .col1, .col2, .col3, .col4 {
+    -webkit-box-flex: 100%;
+        -ms-flex: 100%;
+            flex: 100%;
+    background-color: #4a2549;
+    padding: 20px 20px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
